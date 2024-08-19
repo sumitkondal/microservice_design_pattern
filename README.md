@@ -19,4 +19,4 @@
 * **Service Discovery**: Allows you to dynamically discover the services at runtime and communicate with the services without hard coded URLs. i.e. Consul and Netflix Eureka.<br />
 * **Database per Service**: Allow to create database for each microservices <br /><br />
 
-**Deployment Strategies**: **Blue/Green**:Switching between the current production version and a new version, **Canary**:Deploy new version to small users(10%), **A/B Testing**: Deploys two versions & test(TogglZ), Shadow Deployment, Feature Toggle Deployment(Togglz library Spring Boot).
+**Deployment Strategies**: * **Blue/Green**:Switching between the current production version and a new version, * **Canary**:Deploy new version to small users(10%), * **A/B Testing**: Deploys two versions & test(TogglZ), Shadow Deployment, Feature Toggle Deployment(Togglz library Spring Boot).
