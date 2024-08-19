@@ -12,8 +12,8 @@
 * **DDD-Domain driven design**: Deal with large models by dividing them into different bounded context i.e. sales, order and payment processing.<br />
 * **EDD-Event Driven Design**: It focuses on asynchronous communication between microservices through the use of events. i.e. Kafka, RabbitMQ.<br />
 * **Saga**: A way to manage complex, long-running transactions or processes in a distributed system by breaking into smaller, more manageable steps.<br />
-   * **1. Choreography**- All services of the distributed transaction, publish a new event after success or failure & inform to next (S) or previous(F) Saga.<br />
-   * **2. Orchestration**- A single orchestrator (arranger) manages all transactions and directs services to execute local transactions.Eg Camel, Mulesoft<br />
+   - **1. Choreography**- All services of the distributed transaction, publish a new event after success or failure & inform to next (S) or previous(F) Saga.<br />
+   - **2. Orchestration**- A single orchestrator (arranger) manages all transactions and directs services to execute local transactions.Eg Camel, Mulesoft<br />
 * **Strangler**: A way to replace old (monolithic) system without disrupting existing system to a new microservice system in gradual approach. <br />
 * **Sidecar**: Approach where separate sidecar service is paired with main application, handling supportive tasks like logging, security, communication.<br />
 * **Service Discovery**: Allows you to dynamically discover the services at runtime and communicate with the services without hard coded URLs. i.e. Consul and Netflix Eureka.<br />
