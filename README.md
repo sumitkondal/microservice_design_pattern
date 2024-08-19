@@ -1,4 +1,4 @@
-**Micro Services Design Pattern** — **AAA BBB CCC DES SSS** – (A3 B3 C3 DES S3)
+#Micro Services Design Pattern — **AAA BBB CCC DES SSS** – (A3 B3 C3 DES S3)
 
 **API Gateway**: It acts as a single point of entry to a system.<br />
 **Ambassador**: A way to expose microservice architecture to outside world by using single gateway that proxies requests to individual microservices.<br />
@@ -18,3 +18,4 @@
 **Sidecar**: Approach where separate sidecar service is paired with main application, handling supportive tasks like logging, security, communication.<br />
 **Service Discovery**: Allows you to dynamically discover the services at runtime and communicate with the services without hard coded URLs. i.e. Consul and Netflix Eureka.<br />
 **Database per Service**: Allow to create database for each microservices <br />
+**Deployment Strategies**: **Blue/Green**:Switching between the current production version and a new version, **Canary**:Deploy new version to small users(10%), **A/B Testing**: Deploys two versions & test(TogglZ), Shadow Deployment, Feature Toggle Deployment(Togglz library Spring Boot).
