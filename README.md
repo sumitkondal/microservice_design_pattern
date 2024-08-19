@@ -20,6 +20,6 @@
 * **Database per Service**: Allow to create database for each microservices <br /><br />
 
 **Deployment Strategies**: <br />
-* **Blue/Green**:Switching between the current production version and a new version,<br />
-* * **Canary**:Deploy new version to small users(10%),<br />
-* * **A/B Testing**: Deploys two versions & test(TogglZ), Shadow Deployment, Feature Toggle Deployment(Togglz library Spring Boot).
+- **Blue/Green**:Switching between the current production version and a new version,<br />
+- **Canary**:Deploy new version to small users(10%),<br />
+- **A/B Testing**: Deploys two versions & test(TogglZ), Shadow Deployment, Feature Toggle Deployment(Togglz library Spring Boot).
