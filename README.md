@@ -1,4 +1,4 @@
-#Micro Services Design Pattern — **AAA BBB CCC DES SSS** – (A3 B3 C3 DES S3)
+# Micro Services Design Pattern — **AAA BBB CCC DES SSS** – (A3 B3 C3 DES S3)
 
 **API Gateway**: It acts as a single point of entry to a system.<br />
 **Ambassador**: A way to expose microservice architecture to outside world by using single gateway that proxies requests to individual microservices.<br />
