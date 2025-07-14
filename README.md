@@ -18,6 +18,7 @@
 * **Sidecar**: Approach where separate sidecar service is paired with main application, handling supportive tasks like logging, security, communication.<br />
 * **Service Discovery**: Allows you to dynamically discover the services at runtime and communicate with the services without hard coded URLs. i.e. Consul and Netflix Eureka.<br />
 * **Database per Service**: Allow to create database for each microservices <br /><br />
+* **Event sourcing**: Allow to get all events as log and save to replay the last stage <br /><br />
 
 **Deployment Strategies**: <br />
 - **Blue/Green**:Switching between the current production version and a new version,<br />
